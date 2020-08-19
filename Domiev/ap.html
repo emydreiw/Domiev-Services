@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<title>Domiev</title>
+		<meta charset="UTF-8">
+		<meta name="description" content="Domiev vous propose plusieurs services tels que l'aide à domicile, le portage de courses et de repas, la garde d'animaux, le soutien scolaire de vos enfants, et la création de site web sur Gagnac et aux alentours.">
+		<meta name="keywords" content="Gagnac, Services à la personne, Aide à domicile, Garde d'animaux, Soutien scolaire, Site web, Portage courses, Portage repas">
+		<link rel="stylesheet" media="screen" type="text/css" title="accueilCss" href="ap.css">
+	</head>	
+	<body>
+		<header>
+			<div class="topBar">
+				<a href="index.html"><img src="images/Domiev.png" max-width="50" height="50" class="logo">
+					<h1>Domiev</h1>
+				</a>
+			</div>
+			<P>Des services pour vous, près de chez vous !</P>
+			<button class="devis" type="button">
+				Demander un devis
+			</button>
+		</header>
+		<nav>
+			<a href="index.html" title="Accueil">Accueil</a>
+			<a href="am.html">Aide ménagère</a>
+			<a href="garde.html">Garde d'animaux</a>
+			<a href="ap.html">Aide à la personne</a>
+			<a href="contact.html">Contact</a>
+		</nav>
+		<article>
+			<div class="domi_preparation">
+				<div class="row">
+					<h2>Une aide au quotidien</h2>
+					<h3>Une dame de comapgnie pour améliorer son quotidien.</h3>
+						<p>Les services qui vous sont proposés sont  : 
+							<ul type="circle">
+								<li>Une compagnie et des activités ludiques (jeux de mémoire, accompagnement pour des sorties, activités créatives; etc.)</li>
+								<li>La préparation de repas adaptés et variés selon vos régimes alimentaires</li>
+								<li>La livraison de vos courses</li>
+							</ul>
+						</p>
+						<p>La première visite, permet de faire un échange sur vos attentes, et de faire un planning. Nous établissons également un contrat, pour une période à définir ensemble. Différents moyens de paiements sont possibles.</p>
+						<p>Mon expérience dans le domaine, et mon sens du contact vous permettra des services adaptés à vos besoins.</p>
+				</div>
+			</div>
+			<img src="images/preparation.jpg" height="400" width="50%">
+		</article>
+		<div class="baniere">
+			<figure>
+				<img src="images/confiance.png" max-width="70" height="70">
+				<figcaption>Une confiance</figcaption>
+			</figure>
+			<figure>
+				<img src="images/ecoute.png" max-width="70" height="70">
+				<figcaption>Une écoute</figcaption>
+			</figure>
+			<figure>
+				<img src="images/proximite.png" max-width="70" height="70">
+				<figcaption>Une proximité</figcaption>
+			</figure>
+			<figure>
+				<img src="images/suivi.png" max-width="70" height="70">
+				<figcaption>Un suivi</figcaption>
+			</figure>
+			<figure>
+				<img src="images/gants.png" max-width="70" height="70">
+				<figcaption>Covid-19</figcaption>
+			</figure>
+		</div>
+		<button class="collapsible_2">Tarifs</button>
+		<div class="content">
+        	<table>
+            	<thead>
+                	<tr>
+                    	<th class="head">Les différentes prestations :</th>
+                    	<th class="head">Tarifs</th>
+                	</tr>
+            	</thead>
+            	<tbody>
+                	<tr>
+                   		<th class="body">Dame de compagnie</th>
+                    	<td class="tarif">14€ de l'heure</td>
+                	</tr>
+                	<tr>
+        	       		<th class="body">Livraison de courses</th>
+        	       		<td class="tarif">15€ de l'heure</td> 
+                	</tr>
+                	<tr>
+                		<th class="body">Préparation de repas et livraison</th>
+                		<td class="tarif">15€ de l'heure</td>
+                	</tr>
+            	</tbody>
+        	</table>
+   			<script>
+			var coll = document.getElementsByClassName("collapsible");
+			var i;
+
+			for (i = 0; i < coll.length; i++) {
+  				coll[i].addEventListener("click", function() {
+    				this.classList.toggle("active");
+    				var content = this.nextElementSibling;
+    				if (content.style.maxHeight){
+      					content.style.maxHeight = null;
+    				} else {
+     					content.style.maxHeight = content.scrollHeight + "px";
+    				} 
+  				});
+			}
+			var coll = document.getElementsByClassName("collapsible_2");
+			var i;
+
+			for (i = 0; i < coll.length; i++) {
+  				coll[i].addEventListener("click", function() {
+    				this.classList.toggle("active");
+    				var content = this.nextElementSibling;
+    				if (content.style.maxHeight){
+      					content.style.maxHeight = null;
+    				} else {
+     					content.style.maxHeight = content.scrollHeight + "px";
+    				} 
+  				});
+			}
+			</script>
+		</div>
+		<div class="baniere">
+			<figure>
+				<img src="images/home.png" max-width="70" height="70">
+				<figcaption>Rdv chez vous</figcaption>
+			</figure>
+			<figure>
+				<img src="images/calendrier.png" max-width="70" height="70">
+				<figcaption>Nous établierons un planning</figcaption>
+			</figure>
+				<figure>
+				<img src="images/heure.png" max-width="70" height="70">
+				<figcaption>Régulier d'une semaine à l'autre</figcaption>
+			</figure>
+			<figure>
+				<img src="images/contrat.png" max-width="70" height="70">
+				<figcaption>Nous définierons vos attentes</figcaption>
+			</figure>
+			<figure>
+				<img src="images/question.png" max-width="70" height="70">
+				<figcaption>Pour toutes questions vous pouvez <a href="contact.html">me contacter</a></figcaption>
+			</figure>			
+			</figure>
+		</div>
+		<footer>
+			<a href="legalMention">Mentions Légales</a>
+			<p class="hypenBar">&nbsp;-&nbsp;</p>
+			<a href="cgu">Conditions générales</a>
+		</footer>
+	</body>
+</html>

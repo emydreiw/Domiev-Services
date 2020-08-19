@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<title>Domiev</title>
+		<meta charset="UTF-8">
+		<meta name="description" content="Domiev vous propose plusieurs services tels que l'aide à domicile, le portage de courses et de repas, la garde d'animaux, le soutien scolaire de vos enfants, et la création de site web sur Gagnac et aux alentours.">
+		<meta name="keywords" content="Gagnac, Services à la personne, Aide à domicile, Garde d'animaux, Soutien scolaire, Site web, Portage courses, Portage repas">
+		<link rel="stylesheet" media="screen" type="text/css" title="accueilCss" href="garde.css">
+	</head>	
+	<body>
+		<header>
+			<div class="topBar">
+				<a href="index.html"><img src="images/Domiev.png" max-width="50" height="50" class="logo">
+					<h1>Domiev</h1>
+				</a>
+			</div>
+			<P>Des services pour vous, près de chez vous !</P>
+			<button class="devis" type="button">
+				Demander un devis
+			</button>
+		</header>
+		<nav>
+			<a href="index.html" title="Accueil">Accueil</a>
+			<a href="am.html">Aide ménagère</a>
+			<a href="garde.html">Garde d'animaux</a>
+			<a href="ap.html">Aide à la personne</a>
+			<a href="contact.html">Contact</a>
+		</nav>
+		<div class="formulaire">
+		<form action="devis.html">
+			<fieldset>
+				<p>Trouvez votre garde de chat</p>
+				<p>À Gagnac et ses alentours !</p>
+				<div>
+					<select name="Prestation" id="idPrestation">
+						<option value="">Garde au domicile de la petsitter</option>
+						<option value="garde">Garde chez le propriétaire</option>
+						<option value="visite">Visite chez le propriétaire</option>
+					</select>
+				</div>
+				<div>
+					<select name="petsNumber" id="idNumber">
+						<option value="1">1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+						<option value="4">4</option>
+						<option value="5">5</option>
+						<option value="6">6</option>
+					</select>
+					<select name="differentPets" id="differentPets">
+						<option value="chat">Chat</option>
+						<option value="lapin">Lapin</option>
+						<option value="furet">Furet</option>
+						<option value="rongeur">Rongeur</option>
+						<option value="oiseaux">Oiseaux</option>
+						<option value="perroquet">Perroquet</option>
+						<option value="tortue">Tortue</option>
+						<option value="reptile">Reptile</option>
+					</select>
+				<div><input onKeyPress="return sichiffre(event);" size="5" maxlength="5" type="text" name="adress" id="idAdress" placeholder="Code postal" required>
+				</div>
+				<div>
+					<input type="date" name="startDate"  min="2018-01-01" max="2030-12-31"id="datePicker1" required>
+				</div>
+				<div class="bouton">
+					<button class="button" name="search">Rechercher</button>
+				</div>
+			</fieldset>
+		</form>
+		<div class="baniere">
+			<figure>
+				<img src="images/confiance.png" max-width="70" height="70">
+				<figcaption>Une confiance</figcaption>
+			</figure>
+			<figure>
+				<img src="images/ecoute.png" max-width="70" height="70">
+				<figcaption>Une écoute</figcaption>
+			</figure>
+			<figure>
+				<img src="images/proximite.png" max-width="70" height="70">
+				<figcaption>Une proximité</figcaption>
+			</figure>
+			<figure>
+				<img src="images/suivi.png" max-width="70" height="70">
+				<figcaption>Un suivi</figcaption>
+			</figure>
+			<figure>
+				<img src="images/gants.png" max-width="70" height="70">
+				<figcaption>Covid-19</figcaption>
+			</figure>
+		</div>
+		<article>
+			<button type="button" class="collapsible">Présentation</button>
+			<div class="content">
+				<video title="Haku" preload="auto" autoplay muted loop height="350" width="354">
+					<source src="images/haku.mp4" type="video/mp4">
+				</video>
+				<div class="article_haku">
+					<h2><img src="images/logosm.png" max-width="80" height="80">Votre Petsitter</h2>
+					<h3>Partez en toute tranquilité durant vos voyages et vos absences</h3>
+					<div class="presentation">
+						<p>	J'ai effectué sur Toulouse aussi bien des gardes de chat à mon domicile, que des visites et garde chez le propriétaire.<br>
+						J'ai également, fait de nombreuses fois famille d'accueil en associations.<br>
+						Entre vétérinaires et soins au quotidien, mon expérience est un plus pour votre tranquilité.<br>
+						Je sais m'adapter selon les différents caractères, et met un système de confiance, que ce soit avec le propriétaire ou le petit loup.<br>
+						J'envoie des photos régulièrement, afin de rassurer le propriétaire et envoie des compléments d'informations sur son adpatation.<br>
+						</p>
+						<p>Optez pour l'option qui vous convient le plus !  <img src="images/cat_paws.png" max-width="40" height="40"></p>
+						<ul type="circle">
+							<li>Garde de vos animaux, chez votre catsitter ou à votre domicile</li>
+							<li>Visite à votre domicile</li>
+							<li>Des soins à prodiguer (brossage, nettoyage des oreilles, des dents, bains)</li>
+							<li>Un traitement à respecter (nourriture, soin des yeux, médicaments, ...)</li>
+							<li>Des temps de jeux et un espace adapté (arbre à chat, bâton, plume, peluche, herbe à chat, coussins et plaids)</li>
+							<li>Des gourmandises(un repas fait maison, de la pâtée, des friandises)</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</article>
+		<button class="collapsible_2">Tarifs</button>
+		<div class="content">
+        	<table>
+            	<thead>
+                	<tr>
+                    	<th class="head1">Les différentes gardes :</th>
+                    	<th class="head2">Tarifs</th>
+                    	<th class="head3">Les différents forfaits :</th>
+                	</tr>
+            	</thead>
+            	<tbody>
+                	<tr>
+                   		<th class="visite">Visites</th>
+                    	<td class="visite1">14€ de l'heure</td>
+                    	<td class="visite2">
+            	       		<ul>
+                            	<li>à partir de la 7ème heures : 13€ par heure</li>
+                            	<li>à partir de la 20ème heures : 12€ par heure</li>
+            	       		</ul>
+                    	</td>
+                	</tr>
+                	<tr>
+        	       		<th class="garde">Garde chez le propriétaire (forfait de 2 heures minimum)</th>
+        	       		<td class="garde1">12€ de l'heure</td> 
+        	       		<td class="garde2">
+        		      		<ul>
+        		        		<li>à partir de la 7ème heures : 11€ par heure</li>
+        		        		<li>à partir de la 20ème heures : 10€ par heure</li>
+                        		<li>nuitée : 60€ par nuit</li>
+        		      		</ul>
+        	       		</td>
+                	</tr>
+                	<tr>
+        	       		<th class="catsitter">Garde chez la petsitter</th>
+        	       		<td class="catsitter1">12€ par jour</td>
+        	       		<td class="catsitter2">
+        		      		<ul>
+        			    		<li>à partir du 7ème jour : 11€ par jour</li>
+        			    		<li>à partir du 20ème jour : 10€ par jour</li>
+        		      		</ul>
+        	       		</td>
+                	</tr>
+            	</tbody>
+        	</table>
+    		<div class="extra">
+        	<table>
+            	<tr>
+                	<th class="forfait">Forfaits traitements</th>
+                	<td class="border">
+	               		<ul>
+		              		<li>Heures spécifiques et nourritures spécifiques : +1€ de l'heure.</li>
+		              		<li>Médicaments : +1€ par jour.</li>
+		              		<li>Consultation chez le vétérinaire : +5€ par consultation.</li>
+	               		</ul>
+                	</td>
+            	</tr>
+            	<tr>
+                	<th  class="forfait">Forfaits extras</th>
+                	<td>
+	               		<ul>
+		              		<li>Repas fait maison : +5€ par repas.</li>
+		              		<li>Croquettes de la petsitter : +2€ par repas.</li>
+		              		<li>Bains, brossage, soin des oreilles : +2€ par jour.</li>
+		              		<li>Friandises, pâtées de la petsitter : +1€ par jour.</li>
+	               		</ul>
+                	</td>
+            	</tr>
+        	</table>
+        	</div>
+   		</div>
+   		<button type="button" class="collapsible">Lien Facebook</button>
+			<div class="content">
+				<div class="fb-lien">
+				<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fevacatsitter%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="300" height="300" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+					<h2 class="fb">Une page pour suivre les nouveautés et les différentes gardes</h2>
+					<div class="page">
+						<p>Vous pouvez me contacter sur ma page, je réponds dans la journée.<br>J'affiche avec l'autorisation du propriétaire des photos et nouvelles sur l'adaptation de son chat.</p>
+						<p>Je mets également des photos de mes chats, qui sont habitués aux gardes. Lors de longue garde, le petit nouveau fait même parti des leurs.</p>
+						<p>Chaque chat réagit différemment à un nouveau lieu, je prends le temps nécessaire selon le caractère de chacun, afin qu'il s'habitue dans un premier temps à ma présence, et aux lieux, et dans certains cas à mes chats.</p>
+					</div>
+					<h3 class="fb1">N'hésitez pas à partager votre expérience !</h3>
+				</div>
+			</div>
+   			<script>
+			var coll = document.getElementsByClassName("collapsible");
+			var i;
+
+			for (i = 0; i < coll.length; i++) {
+  				coll[i].addEventListener("click", function() {
+    				this.classList.toggle("active");
+    				var content = this.nextElementSibling;
+    				if (content.style.maxHeight){
+      					content.style.maxHeight = null;
+    				} else {
+     					content.style.maxHeight = content.scrollHeight + "px";
+    				} 
+  				});
+			}
+			var coll = document.getElementsByClassName("collapsible_2");
+			var i;
+
+			for (i = 0; i < coll.length; i++) {
+  				coll[i].addEventListener("click", function() {
+    				this.classList.toggle("active");
+    				var content = this.nextElementSibling;
+    				if (content.style.maxHeight){
+      					content.style.maxHeight = null;
+    				} else {
+     					content.style.maxHeight = content.scrollHeight + "px";
+    				} 
+  				});
+			}
+			</script>
+			<section id="slideshow">
+		
+				<div class="container">
+					<div class="c_slider"></div>
+					<div class="slider">
+						<figure>
+							<img src="images/garde-chat1.jpg" alt="" width="340" height="310" />
+							<figcaption>Différentes gardes</figcaption>
+
+						</figure>
+						<figure>
+							<img src="images/garde-chat3.jpg" alt="" width="340" height="310" />
+							<figcaption>Garde de Pirouette</figcaption>
+						</figure>
+						<figure>
+							<img src="images/visite-chat.jpg" alt="" width="340" height="310" />
+							<figcaption>Visite de Bouchon</figcaption>
+
+						</figure>
+						<figure>
+							<img src="images/garde-chat2.jpg" alt="" width="340" height="310" />
+							<figcaption>Garde de Ola</figcaption>
+						</figure>
+					</div>
+				</div>
+		
+				<span id="timeline"></span>
+			</section>
+			<article class="fonction">
+				<h2>Mon fonctionnement</h2>
+					<p>Que vous partiez pour une courte ou longue durée, il est essentiel de faire garder votre animal.</p>
+					<p>Trois types de gardes existent :
+						<ul type="circle">
+							<li>Garde chez la petsitter : Un logement adpaté pour l'animal, avec des arbres à chat et plaids, coussins et jouets. Un balcon protégé, pour ceux qui veulent sortir. Et une chambre pour une adaptation à son rythme.</li>
+							<li>Garde chez le propriétaire : Première visite et remise des clés. Des visites de plusieurs heures et nuitées sont possibles.</li>
+							<li>Visite chez le propriétaire : Première visite pour voir l'animal, savoir ses besoins et pour la remise des clés. Des visistes d'une heure.</li>
+						</ul>
+					</p>
+				<h3>Quelle que soit la garde choisie, des photos et des nouvelles seront envoyées au propriétaire !</h3>
+			</article>
+		<footer>
+			<a href="legalMention">Mentions Légales</a>
+			<p class="hypenBar">&nbsp;-&nbsp;</p>
+			<a href="cgu">Conditions générales</a>
+		</footer>
+	</body>
+</html>

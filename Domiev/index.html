@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<title>Domiev</title>
+		<meta charset="UTF-8">
+		<meta name="description" content="Domiev vous propose plusieurs services tels que l'aide à domicile, le portage de courses et de repas, la garde d'animaux, le soutien scolaire de vos enfants, et la création de site web sur Gagnac et aux alentours.">
+		<meta name="keywords" content="Gagnac, Services à la personne, Aide à domicile, Garde d'animaux, Soutien scolaire, Site web, Portage courses, Portage repas">
+		<link rel="stylesheet" media="screen" type="text/css" title="accueilCss" href="Domiev.css">
+	</head>	
+	<body>
+		<header>
+			<div class="topBar">
+				<a href="index.html"><img src="images/Domiev.png" max-width="50" height="50" class="logo">
+					<h1>Domiev</h1>
+				</a>
+			</div>
+			<P>Des services pour vous, près de chez vous !</P>
+			<button class="devis" type="button">
+				Demander un devis
+			</button>
+		</header>
+		<nav>
+			<a href="index.html" title="Accueil">Accueil</a>
+			<a href="am.html">Aide ménagère</a>
+			<a href="garde.html">Garde d'animaux</a>
+			<a href="ap.html">Aide à la personne</a>
+			<a href="contact.html">Contact</a>
+		</nav>
+		<section class="domiev">
+			<div class="presentation">
+				<h2>Des services à domicile à portée de main</h2>
+				<p class="hyphen">-</p>
+				<P>Mon expérience dans la garde de chats, et en tant qu'aide à domicile sur Toulouse, me permet de savoir m'adapter à vos besoins, et à ceux de vos animaux sur Gagnac et aux alentours.<br>
+				</P> 
+				<p class="p1">Pour toutes questions ou informations, vous pouvez <a href="contact.html">me contacter.</a></p>
+			</div>
+			<img src="images/acc.jpg" max-width="500px" height="366,7px" class="hands">
+		</section>
+		<form action="devis.hmtl">
+			<fieldset>
+				<table>
+					<p>Besoin d'un service ? Demandez un devis</p>
+					<tr>
+						<td>
+							<label id="servicesInput">Type de service</label>
+							<select name="Services" id="services">
+								<option value="am">Aide ménagère</option>
+								<option value="ap" selected>Aide à la personne</option>
+								<option value="portage">Portage de repas</option>
+								<option value="garde">Garde d'animaux</option>
+								<option value="info">Création de site web</option>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<label for="namemInput">Nom <sup>*</sup></label>
+							<input type="text" name="name" id="nameInput" required>
+						</td>
+						<td>
+							<label for="firstNameInput">Prénom <sup>*</sup></label>
+							<input type="text" name="firstName" id="firstNameInput" required>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<label for="emailInput">Email <sup>*</sup></label>
+							<input type="email" name="email" id="emailInput" placeholder="Exemple@hotmail.fr" required>
+						</td>
+						<td>
+							<label for="phoneInput">Téléphone <sup>*</sup></label>
+							<input type="text" name="phone" id="phoneInput" required>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="2">
+							<label for="msg">Message :</label>
+							<textarea id="msg" name="userMessage" placeholder="Entrer votre message..."></textarea>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<input type="submit" id="send" value="Envoyer ma demande">
+						</td>
+					</tr>
+				</table>
+			</fieldset>
+		</form>
+		<section class="listing">
+		<h2 class="proposeToYou">Les Services proposés</h2>
+			<div class="image">
+				<a href="am.html" id="log">
+					<img src="images/Menage.jpg" width="200" height="150" class="logoMenage">
+					<h3>Aide ménagère</h3>
+				</a>
+				<a href="garde.html" id="gard">
+					<img src="images/cat.jpg" width="200" height="150" class="logoGarde">
+					<h3>Garde d'animaux</h3>
+				</a>
+				<a href="ap.hmtl" id="ad">
+					<img src="images/AD.jpg" width="200" height="150" class="logoAD">
+					<h3>Aide à la personne</h3>
+				</a>
+				<a href="info.html" id="infor">
+					<img src="images/info.jpg" width="200" height="150" class="logoInfo">
+					<h3>Création de site web</h3>
+				</a>
+				<a href="courses.html" id="course">
+				 	<img src="images/courses.jpg" widht="200" height="150" class="logoCourses">
+					<h3>Aide aux courses</h3>
+				</a>
+				<a href="repas.html" id="repas">
+					<img src="images/foody.jpg" widht="200" height="150" class="logoRepas">
+					<h3>Aide aux repas</h3>
+				</a>	
+			</div>
+		</section>
+		<article>
+			<h2>Mes prestations à Gagnac et ses alentours</h2>
+			<img src="images/article.jpg" width="375" height="538">
+			<p class="hyphenTwo">-</p>
+			<div>
+			<img src="images/coeur.png" width="100" height="50">
+				<h4>Vous avez besoin d'une aide pour rendre votre quotidien plus simple ?</h4>
+					<p class="article_1">Ces services s'adressent à toutes personnes: 
+						<ul type="circle">
+							<li>Souhaitant un soutien dans les tâches à réaliser dans sa vie quotidienne.</li>
+							<li>Recherchant un service professionnel de confiance et de proximité pour effectuer diverses tâches que vous ne pouvez effectuer par manque de temps.</li>
+						</ul>
+					</p>
+				<h4>Des besoins spécifiques ?</h4>
+					<p class="article_1">Des services à la carte :
+						<ul type="circle">
+							<li>Laver et/ou repasser le linge</li>
+							<li>L'entretien de logement</li>
+							<li>Préparation de repas adaptés à votre régime alimentaire pouvant être livré à domicile</li>
+							<li>Livraison de courses</li>
+							<li>Une compagnie et des activités ludiques (jeux de mémoire, accompagnement pour des sorties, activités créatives; etc.)</li>
+							<li>De la garde aux visites de vos animaux de compagnie</li>
+							<li>Vous voulez être visible sur le net ? Création de petits sites</li>
+						</ul>
+					</p>
+				<h4>Un paiement sécurisé :</h4>
+					<p class="article_1">
+						Le paiement par chèque CESU est possible.
+					</p>
+			</div>	
+		</article>
+		<footer>
+			<a href="legalMention">Mentions Légales</a>
+			<p class="hypenBar">&nbsp;-&nbsp;</p>
+			<a href="cgu">Conditions générales</a>
+		</footer>
+	</body>
+</html>

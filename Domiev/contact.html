@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<title>Domiev</title>
+		<meta charset="UTF-8">
+		<meta name="description" content="Domiev vous propose plusieurs services tels que l'aide à domicile, le portage de courses et de repas, la garde d'animaux, le soutien scolaire de vos enfants, et la création de site web sur Gagnac et aux alentours.">
+		<meta name="keywords" content="Gagnac, Services à la personne, Aide à domicile, Garde d'animaux, Soutien scolaire, Site web, Portage courses, Portage repas">
+		<link rel="stylesheet" media="screen" type="text/css" title="accueilCss" href="contact.css">
+	</head>	
+	<body>
+		<header>
+			<div class="topBar">
+				<a href="index.html"><img src="images/Domiev.png" max-width="50" height="50" class="logo">
+					<h1>Domiev</h1>
+				</a>
+			</div>
+			<P>Des services pour vous, près de chez vous !</P>
+			<button class="devis" type="button">
+				Demander un devis
+			</button>
+		</header>
+		<nav>
+			<a href="index.html" title="Accueil">Accueil</a>
+			<a href="am.html">Aide ménagère</a>
+			<a href="garde.html">Garde d'animaux</a>
+			<a href="ap.html">Aide à la personne</a>
+			<a href="contact.html">Contact</a>
+		</nav>
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2722.5082103955615!2d1.3732290940324432!3d43.70230196428573!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12aea5fdaf669875%3A0x6dce3ea04ff52e86!2s1%20All%C3%A9e%20du%20Bac%2C%2031150%20Gagnac-sur-Garonne!5e0!3m2!1sfr!2sfr!4v1597677441424!5m2!1sfr!2sfr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+		<form action="devis.hmtl">
+			<fieldset>
+				<table>
+					<p>Formulaire de contact</p>
+					<tr>
+						<td>
+							<label id="servicesInput">Type de service</label>
+							<select name="Services" id="services">
+								<option value="am">Aide ménagère</option>
+								<option value="ap" selected>Aide à la personne</option>
+								<option value="portage">Portage de repas</option>
+								<option value="garde">Garde d'animaux</option>
+								<option value="info">Création de site web</option>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<label for="namemInput">Nom <sup>*</sup></label>
+							<input type="text" name="name" id="nameInput" placeholder="Votre nom" required>
+						</td>
+						<td>
+							<label for="firstNameInput">Prénom <sup>*</sup></label>
+							<input type="text" name="firstName" id="firstNameInput" placeholder="Votre prénom" required>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<label for="emailInput">Email <sup>*</sup></label>
+							<input type="email" name="email" id="emailInput" placeholder="Exemple@hotmail.fr" required>
+						</td>
+						<td>
+							<label for="phoneInput">Téléphone <sup>*</sup></label>
+							<input type="text" name="phone" id="phoneInput" placeholder="Numéro de tel" required>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="2">
+							<label for="adresse">Adresse <sup>*</sup></label>
+							<textarea type="textarea" id="adress" placeholder="Entrer votre adresse complète : " required></textarea>
+						</td>
+					</tr>
+					<tr>
+						<td class="cp">
+							<label for="cp">Code postal <sup>*</sup></label>
+							<input onKeyPress="return sichiffre(event);" size="5" maxlength="5" type="text" id="cp" placeholder="Code" required>
+						</td>
+						<td class="ville">
+							<label for="ville">Ville <sup>*</sup></label>
+							<input type="text" name="ville" id="ville" placeholder="Votre ville" required>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="2">
+							<label for="msg">Message :</label>
+							<textarea id="msg" name="userMessage" placeholder="Entrer votre message..."></textarea>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<input type="submit" id="send" value="Envoyer ma demande">
+						</td>
+					</tr>
+				</table>
+			</fieldset>
+		</form>
+		<footer>
+			<a href="legalMention">Mentions Légales</a>
+			<p class="hypenBar">&nbsp;-&nbsp;</p>
+			<a href="cgu">Conditions générales</a>
+		</footer>
+	</body>
+</html>

@@ -1,0 +1,409 @@
+@font-face {
+    font-family: 'aileronblack_italic';
+    src: url(webfonts/aileron_blackitalic_macroman/Aileron-BlackItalic-webfont.eot);
+    src: url(webfonts/aileron_blackitalic_macroman/Aileron-BlackItalic-webfont.eot?#iefix) format('embedded-opentype'),
+         url(webfonts/aileron_blackitalic_macroman/Aileron-BlackItalic-webfont.woff2) format('woff2'),
+         url(webfonts/aileron_blackitalic_macroman/Aileron-BlackItalic-webfont.woff) format('woff'),
+         url(webfonts/aileron_blackitalic_macroman/Aileron-BlackItalic-webfont.ttf) format('truetype'),
+         url(webfonts/aileron_blackitalic_macroman/Aileron-BlackItalic-webfont.svg#aileronblack_italic) format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'aileronsemibold';
+    src: url(webfonts/aileron_semibold_macroman/Aileron-SemiBold-webfont.eot);
+    src: url(webfonts/aileron_semibold_macroman/Aileron-SemiBold-webfont.eot?#iefix) format('embedded-opentype'),
+         url(webfonts/aileron_semibold_macroman/Aileron-SemiBold-webfont.woff2) format('woff2'),
+         url(webfonts/aileron_semibold_macroman/Aileron-SemiBold-webfont.woff) format('woff'),
+         url(webfonts/aileron_semibold_macroman/Aileron-SemiBold-webfont.ttf) format('truetype'),
+         url(webfonts/aileron_semibold_macroman/Aileron-SemiBold-webfont.svg#aileronsemibold) format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'aileronregular';
+    src: url(webfonts/aileron_regular_macroman/Aileron-Regular-webfont.eot);
+    src: url(webfonts/aileron_regular_macroman/Aileron-Regular-webfont.eot?#iefix) format('embedded-opentype'),
+         url(webfonts/aileron_regular_macroman/Aileron-Regular-webfont.woff2) format('woff2'),
+         url(webfonts/aileron_regular_macroman/Aileron-Regular-webfont.woff) format('woff'),
+         url(webfonts/aileron_regular_macroman/Aileron-Regular-webfont.ttf) format('truetype'),
+         url(webfonts/aileron_regular_macroman/Aileron-Regular-webfont.svg#aileronregular) format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'aileronthin';
+    src: url(webfonts/aileron_thin_macroman/Aileron-Thin-webfont.eot);
+    src: url(webfonts/aileron_thin_macroman/Aileron-Thin-webfont.eot?#iefix) format('embedded-opentype'),
+         url(webfonts/aileron_thin_macroman/Aileron-Thin-webfont.woff2) format('woff2'),
+         url(webfonts/aileron_thin_macroman/Aileron-Thin-webfont.woff) format('woff'),
+         url(webfonts/aileron_thin_macroman/Aileron-Thin-webfont.ttf) format('truetype'),
+         url(webfonts/aileron_thin_macroman/Aileron-Thin-webfont.svg#aileronthin) format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+
+header {
+	background-color: rgba(179, 0, 0, 1);
+	padding-top: 5px;
+	padding-left: 50px;
+	display: flex;
+	justify-content: space-between;
+	height: 55px;
+}
+
+.devis {
+	height: 25px;
+	margin-right: 35px;
+	margin-top: 15px;
+	font-family: 'aileronsemibold', Arial, sans-serif;
+}
+
+h1 {
+	margin-top: 0;
+	margin-left: 20px;
+	color: white;
+	font-size: 45px;
+	font-family: 'aileronsemibold', Arial, sans-serif;
+	display: flex;
+	float: right;
+}
+
+.logo {
+	margin-left: 55px;
+}
+
+body {
+	margin: 0;
+}
+
+nav a {
+	font-size: 25px;
+	padding: 15px;
+	color:  rgba(179, 0, 0, 1);
+	text-decoration: none;
+	font-family: 'aileronsemibold', Arial, sans-serif;
+}
+
+nav {
+	display: flex;
+	justify-content: flex-end;
+	padding: 35px;
+	width: auto;
+	background-color: white;
+}
+
+form {
+	background-image: url(images/accueil.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	height: auto;
+	padding: 120px;
+}
+
+fieldset {
+	padding: 25px;
+	font-family: 'aileronsemibold', Arial, sans-serif;
+	color: rgba(179, 0, 0, 1);
+	border: thick double rgba(179, 0, 0, 1);
+	width: 25%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+input[type="text"],
+input[type="email"] {
+	width: 170px;
+}
+
+label {
+	font-size: 18px;
+}
+
+a:hover {
+	color: grey;
+}
+
+.devis:hover {
+	color: grey;
+}
+
+header > p {
+	color: white;
+	font-size: 20px;
+	font-family: 'aileronsemibold', Arial, sans-serif;
+}
+
+.domiev {
+	padding-top: 50px;
+	display: flex;
+	align-items: flex-end;
+	width: 75%;
+	margin-left: 35px;
+}
+
+.hands {
+	padding-left: 25px;
+	padding-bottom: 25px;
+}
+
+.presentation {
+	padding-bottom: 35px;
+	padding-left: 250px;
+}
+
+.p1 > a {
+	color: rgba(179, 0, 0, 1);
+	font-family: 'aileronthin', Arial, sans-serif;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.p1 > a:hover {
+	color: grey;
+}
+
+h2 {
+	color: rgba(179, 0, 0, 1);
+	font-family: 'aileronsemibold', Arial, sans-serif;
+}
+
+section > h2 {
+	color: white;
+}
+
+.p1 {
+	color: rgba(179, 0, 0, 1);
+}
+
+#services, #nameInput, #firstNameInput, #phoneInput, #emailInput {
+	border-radius: 15px;
+	border: 1px solid black;
+	padding: 5px;
+	background-color: rgb(225, 225, 225);
+	display: flex;
+	font-family: 'aileronsemibold', Arial, sans-serif;
+}
+
+fieldset {
+	background-color: white;
+}
+
+input {
+	border: 1px solid rgba(179, 0, 0, 1);
+	padding: 5px 15px 5px 15px;
+	border-radius: 15px;
+	background-color: rgba(179, 0, 0, 1);
+	display: flex;
+	font-family: 'aileronsemibold', Arial, sans-serif;
+	font-size: 15px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+select {
+	margin-bottom: 10px;
+	margin-top: 10px;
+	font-size: 15px;
+}
+
+textarea {
+	font-family: 'aileronsemibold', Arial, sans-serif;
+	margin-top: 10px;
+	font-size: 15px;
+}
+
+#send:hover {
+	color: grey;
+}
+
+#send {
+	font-size: 18px;
+	color: white;
+	margin-top: 15px;
+}
+
+#nameInput > #firstNameInput {
+	display: flex;
+	flex-direction: right;
+}
+
+input[type="email"] > #phoneInput {
+	display: flex;
+	flex-direction: right;
+}
+
+fieldset > p {
+	margin-top: 0;
+	font-size: 21px;
+	display: flex;
+	justify-content: center;
+}
+
+abbr {
+	text-decoration: none;
+	color: red;
+}
+
+textarea {
+	height: 7em;
+	width: 100%;
+}
+
+
+
+.proposeToYou {
+	display: flex;
+	justify-content: center;
+	margin: 0;
+	padding: 15px;
+}
+
+#infor, #gard, #ad, #repas, #course, #log {
+	text-decoration: none;
+	margin: 5px;
+}
+
+.image {
+	display: flex;
+	text-align: center;
+	justify-content: center;
+}
+
+.listing {
+	text-decoration: none;
+}
+
+.presentation {
+	color: rgba(179, 0, 0, 1);
+	font-family:'aileronthin', Arial, sans-serif;
+	justify-content: center;
+}
+
+h3 {
+	color: white;
+	font-size: 15px;
+	font-family: 'aileronsemibold', Arial, sans-serif;
+}
+ a > p {
+ 	color: white;
+ 	font-size: 10px;
+ 	font-family:'aileronthin', Arial, sans-serif;
+ }
+
+ .listing {
+ 	background-color: rgba(179, 0, 0, 1);
+ }
+
+ div > h3:hover {
+ 	color: grey;
+ }
+
+ div > h2 {
+ 	color: rgba(179, 0, 0, 1);
+ 	margin: 0;
+ }
+
+ .hyphen {
+ 	color: rgba(179, 0, 0, 1);
+ 	font-size: 95px;
+ 	height: 0;
+ 	margin-top: 0;
+ 	margin-bottom: 105px;
+ }
+
+ footer {
+ 	background-color: rgb(90, 90, 90);
+ 	height: 40px;
+ 	display: flex;
+ 	align-items: center;
+ 	justify-content: center;
+ 	text-decoration: none;
+ }
+
+ a {
+ 	color: white;
+ 	font-family: 'aileronsemibold', Arial, sans-serif;
+ }
+
+footer > p {
+ 	color: white;
+ 	+
+ 	text-decoration: none;
+ }
+
+ footer > a {
+ 	text-decoration: none;
+ }
+
+ #log {
+ 	text-decoration: none;
+ }
+
+ #repas img {
+ 	width: 200px !important;
+ }
+
+ article {
+	justify-content: center;
+	padding: 100px 150px 100px 150px;
+ }
+
+article > img {
+ 	float: right;
+ 	padding-left: 15%;
+ }
+
+ h4 {
+ 	font-family: 'aileronregular', Arial, sans-serif;
+ 	font-weight: bold;
+ 	font-size: 15px;
+ 	color: rgba(179, 0, 0, 1);
+ }
+
+ul {
+ 	color: rgb(90,90,90);
+    font-family: 'aileronsemibold', Arial, sans-serif;
+    font-size: 18px;
+    justify-content: center;
+ }
+
+.article_1 {
+  	color: rgb(90,90,90);
+    font-family: 'aileronsemibold', Arial, sans-serif;
+    font-size: 18px;
+    justify-content: center;	
+ }
+
+ article > h2 {
+ 	font-size: 35px;
+ 	font-family: 'aileronsemibold', Arial, sans-serif;
+ 	color: rgba(179, 0, 0, 1);
+ }
+
+h4 {
+	font-size: 25px;
+	font-family: 'aileronsemibold', Arial, sans-serif;
+}
+
+ div > img {
+ 	float: right;
+ }
+
+ .hyphenTwo {
+ 	font-size: 50px;
+ 	margin: 0;
+ 	color: rgba(179, 0, 0, 1);
+ }
